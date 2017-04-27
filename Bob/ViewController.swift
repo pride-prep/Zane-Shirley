@@ -10,8 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var scream_label: UILabel!
     @IBOutlet weak var beam_label: UILabel!
+    @IBOutlet weak var scream_label: UILabel!
     
     
     override func viewDidLoad() {
@@ -33,8 +33,7 @@ class ViewController: UIViewController {
             beam_label.text = "------------"
         }else if beam_label.text == "------------" {
             beam_label.text = ""
-    }
-
+        }
 
     }
 }
